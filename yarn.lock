@@ -4971,6 +4971,11 @@ rollup@^1.32.1:
     "@types/node" "*"
     acorn "^7.1.0"
 
+route-schema@^0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/route-schema/-/route-schema-0.1.12.tgz#448955783799b7690d51cd828b3a73233f97fa5c"
+  integrity sha512-Zh/LYSZmd2wkX664YHbl+78lVipSKXkkpqNGBL/Op2oKcT8lAE+hsyk3FnQJeOak6JZ3VpFjwoXbuXUX5AzECQ==
+
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"

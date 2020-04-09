@@ -15,3 +15,7 @@ export function objectForeach<K extends string, V>(
     callback(key as K, value);
   }
 }
+
+export function objectKeys<K extends string>(obj: Record<K, any>): K[] {
+  return Object.keys(obj) as K[];
+}
