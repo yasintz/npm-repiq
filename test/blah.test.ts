@@ -1,7 +1,10 @@
-import { sum } from '../src';
+import Repiq from '../src';
 
-describe('blah', () => {
-  it('works', () => {
-    expect(sum(1, 1)).toEqual(2);
-  });
+const instance = new Repiq();
+
+fetch('/api').then(response => {
+  instance.push('/api', response);
 });
+
+instance.addEventListenerToProcess('/api', data => {});
+function onClickApiButton() {}
