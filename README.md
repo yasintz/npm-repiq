@@ -1,27 +1,54 @@
-# TSDX Bootstrap
+<h1 align="center">Welcome to repiq 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/repiq" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/repiq.svg">
+  </a>
+  <img src="https://img.shields.io/badge/node-%3E%3D10-blue.svg" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/yasintza" target="_blank">
+    <img alt="Twitter: yasintza" src="https://img.shields.io/twitter/follow/yasintza.svg?style=social" />
+  </a>
+</p>
 
-This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
+## Prerequisites
 
-## Local Development
+- node >=10
 
-Below is a list of commands you will probably find useful.
+## Install
 
-### `npm start` or `yarn start`
+```sh
+yarn install
+```
 
-Runs the project in development/watch mode. Your project will be rebuilt upon changes. TSDX has a special logger for you convenience. Error messages are pretty printed and formatted for compatibility VS Code's Problems tab.
+## Usage
 
-<img src="https://user-images.githubusercontent.com/4060187/52168303-574d3a00-26f6-11e9-9f3b-71dbec9ebfcb.gif" width="600" />
+```sh
+yarn run start
+```
 
-Your library will be rebuilt if you make edits.
+## Run tests
 
-### `npm run build` or `yarn build`
+```sh
+yarn run test
+```
 
-Bundles the package to the `dist` folder.
-The package is optimized and bundled with Rollup into multiple formats (CommonJS, UMD, and ES Module).
+## Author
 
-<img src="https://user-images.githubusercontent.com/4060187/52168322-a98e5b00-26f6-11e9-8cf6-222d716b75ef.gif" width="600" />
+👤 **yasintz**
 
-### `npm test` or `yarn test`
+* Twitter: [@yasintza](https://twitter.com/yasintza)
+* Github: [@yasintz](https://github.com/yasintz)
+* LinkedIn: [@yasintz](https://linkedin.com/in/yasintz)
 
-Runs the test watcher (Jest) in an interactive mode.
-By default, runs tests related to files changed since the last commit.
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/yasintz/npm-repiq/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
